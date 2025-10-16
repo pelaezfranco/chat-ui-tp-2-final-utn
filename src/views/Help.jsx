@@ -4,7 +4,7 @@ const Help = () => {
   return (
     <main>
       <header>
-      <h1>Hola a todos desde la página de Help</h1>
+      <h1>Hola!</h1>
       <h2>Aca van a encontrar como funciona, con que tecnologias se creó y posibles mejoras futuras</h2>
       </header>
 
@@ -39,7 +39,7 @@ const Help = () => {
           <li>Agregar opcion para tomar fotos</li>
           </ul>
       </section>
-<button className="text-info">Para volver al <Link to="/chat">chat</Link></button>
+<div className="help-return-button">Para volver al <Link to="/chat">chat</Link></div>
     </main>
   )
 }
