@@ -317,6 +317,18 @@ form .text-info {
   font-size: 13px;
 }
 
+.text-info{
+  color: #72079c;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 10px;
+  text-align: center;
+
+  
+}
 .cont-popup {
   background-color: rgba(33, 33, 33, 0.261);
   position: fixed;
@@ -470,6 +482,23 @@ body.dark-mode .user-not-found {
   text-align: center;
   width: 100%;
 }
+
+.card{
+  background: var(--card);
+  border: 1px solid var (--border);
+  border-radius: 14px;
+  padding: 20px;
+  background-color: #888;
+  margin: 18px 0;
+  box-shadow: 0 2px 10px rgba(8, 8, 8, 0.5);
+  text-align: center;
+}
+ ul {
+  list-style: inside;
+  text-align: left;
+  margin-top: 10px;
+ }
+.card h2 { margin: 0 0 10px;}
 
 /* Resposive mínimo para mobile */
 @media (max-width: 480px) {
